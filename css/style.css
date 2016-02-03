@@ -27,17 +27,23 @@ button:hover {
     border-color: #cf3d0e;
     cursor: pointer;
 }
+ol li {
+	list-style: none;
+}
 .introduction .buttons {
 	color: white;
     text-align: center;
     margin-top: 1.563rem;
 }
-.content img, .content ul {
+.content img {
  	margin: 10px 10px 0px 10px;
 }
 .introduction h1, .introduction h3 {
 	text-align:center;
 	color:#fff;
+	font-weight:300;
+}
+.social > .content h4 {
 	font-weight:300;
 }
 .introduction h1 {
@@ -110,6 +116,11 @@ button:hover {
 	background-size: cover;
 	overflow:auto;
 }
+.cases {
+	background-color: #fff;
+    overflow: hidden;
+    padding-bottom: 11rem;
+}
 .cases .devices {
     width: 33.3333333%;
     display: inline-block;
@@ -128,4 +139,43 @@ button:hover {
 	font-weight: 400;
     font-size: 1.563rem;
     margin: 2.5rem 0px 1.875rem;
+}
+.social {
+	background-color: #fff;
+    overflow: auto;
+    padding-bottom: 9.375rem;
+    text-align: center;
+}
+.social hr {
+	border: 0;
+    border-top: 1px solid #eaebec;
+    margin: 1.313rem 0;
+}
+.social .icons > li {
+    border-radius: 1.25rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: inline-block;
+    margin: 1.25rem 5px;
+    border: 1px solid #eaebec;
+    padding: 0.625rem 0;
+    text-align: center; 
+}
+.social .twitter {
+	color: #55acee;
+}
+.social .facebook {
+	color: #4c66a4;
+}
+.social .instagram {
+	color: #3f729b;
+}
+.icons {
+	padding-left:10px;
+}
+.social .copy {
+	font-size: 0.9rem;
+    font-weight: 300;
+    color: #838994;
+    text-align:center;
 }
