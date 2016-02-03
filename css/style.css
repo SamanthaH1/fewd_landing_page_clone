@@ -58,6 +58,12 @@ button:hover {
 	margin: 0 auto;	
 	width: 970px;
 }
+.top-navigation {
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
+	background-color:#fff;
+}
 .top-navigation .links > .active {
 	color: #4c5058;
 	font-weight: 500;
